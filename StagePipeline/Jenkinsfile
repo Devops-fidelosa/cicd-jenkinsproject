@@ -17,8 +17,8 @@ pipeline {
         SONARSERVER = 'sonarserver'
         SONARSCANNER = 'sonarscanner'
         registryCredential = 'ecr:us-east-1:awscreds'
-        appRegistry ='951401132355.dkr.ecr.us-west-1.amazonaws.com/fidevappimg'
-        fidevopsRegistry = "https://951401132355.dkr.ecr.us-west-1.amazonaws.com"
+        appRegistry ='951401132455.dkr.ecr.us-west-1.amazonaws.com/fidevappimg'
+        fidevopsRegistry = "https://951401132455.dkr.ecr.us-west-1.amazonaws.com"
     }
 
     stages {
